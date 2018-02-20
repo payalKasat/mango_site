@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Indian Mango in LA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        h3{
+            margin: 20px;
+            text-decoration-style: double;
+            text-decoration: underline;
+            color: #dc9d1c;
+        }
+        #home_page{
+            padding: 10px;
+        }
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+            background-color:#f5f5f5; ;
+        }
+        .page-header{
+            border: 0;
+            color: #dc9d1c;
+            background-color: #f2f2f2;
+        }
+        .item{
+            height: 80vh;
+            width: 100vw;
+            border-bottom: solid 10px #ffcd47;
+            border-top: solid 10px #ffcd47;
+        }
+        .navbar-nav{
+            width: 100%;
+        }
+
+        .navbar-nav>li>a{
+            text-align: center;
+            color: #dc9d1c;
+        }
+        .carousel-img1{
+            background-image: url("images/alphonso_mango_1.png");
+        }
+        .carousel-img2{
+            background-image: url("images/mango_packig.JPG");
+        }
+        .carousel-img3{
+            background-image: url("images/alphanso3.png");
+        }
+        .carousel-img3,.carousel-img2,.carousel-img1{
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        /* Add a gray background color form  */
+        #Order{
+            background-color: #f2f2f2;
+            padding: 10px;
+
+        }
+        footer {
+            background-color:#dc9d1c;
+            padding: 25px;
+        }
+        .page-header h1{
+            text-transform: capitalize;
+        }
+
+        .our-goal{
+            border-bottom: solid 5px #dc9d1c;
+        }
+        .dropdown .btn{
+            background-color: #dc9d1c;
+        }
+        .btn:hover{
+            color: green;
+        }
+        .dropdown-menu{
+            width: 350px;
+            padding: 10px;
+        }
+        .dropdown-menu img{
+            width: 270px;
+            height: 270px;
+            border: solid 2px;
+            border-radius: 100%;
+        }
+        #product-div{
+            height: 55vh;
+        }
+        #Order>h3{
+            text-align: center;
+        }
+        #contact h3{
+            color: whitesmoke;
+        }
+        .contact-div{
+            border-right: solid 1px white;
+        }
+
+        @media (max-width: 736px) {
+            .dropdown{
+                margin: 10px;
+            }
+            .dropdown-menu{
+                width: 300px;
+            }
+        }
+    </style>
+</head>
+<body id="home_page">
+<div class="container-fluid text-center">
+    <div class="page-header col-xs-12 ">
+        <h1>Mangoes for a cause</h1>
+        <h3>Indian mangoes in LA</h3>
+    </div>
+</div>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active carousel-img1">
+            <!--<img class="carousel-img1" src="images/alphonso_mango_1.png" alt="Image">-->
+            <div class="carousel-caption">
+                <h4>Export Quality</h4>
+            </div>
+        </div>
+        <div class="item carousel-img2">
+            <!--<img class="carousel-img2" src="images/kesar_mango.jpg" alt="Image">-->
+            <div class="carousel-caption">
+                <h4>Careful packing</h4>
+            </div>
+        </div>
+
+        <div class="item carousel-img3">
+            <!--<img class="carousel-img3" src="images/alphanso3.png" alt="Image">-->
+            <div class="carousel-caption">
+                <h4>No. 1 product</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<br>
+
+<nav class="navbar">
+    <div class="container-fluid">
+        <div id="myNavbar">
+            <ul class="nav navbar-nav ">
+                <li class="active col-xs-3"><a href="#home_page">Home</a></li>
+                <li class="col-xs-3"><a href="#product-div">Product</a></li>
+                <li class="col-xs-3"><a href="#Order">Order</a></li>
+                <li class="col-xs-3"><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<div class="our-goal text-center">
+    <h3>Mangoes for cause!!!</h3>
+    <p>Our goal is to sell 1000 boxes and rais almost $3000 for donation to outage home kids.  </p>
+</div>
+<div class="container text-center" id="product-div">
+    <h3>Our Products</h3><br>
+    <div class="row">
+        <div class="col-sm-4 product">
+            <div class="dropdown">
+                <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown">Alphanso<span class="caret"></span></button>
+                <p class="dropdown-menu">
+                    Alphonso mangoes have a rich, creamy, tender texture and are low in fiber content,with a delicate,
+                    creamy pulp. It is considered to be among the most superior varieties of the fruit in terms of sweetness, richness and flavour.
+                    These characteristics make Alphonso one of the most in-demand cultivars. The skin of
+                    a fully ripe Alphonso mango turns bright golden yellow with a tinge of red which spreads across the top of
+                    the fruit. The flesh of the fruit is golden saffron colour.
+                    <img src="images/alphanso.png" class="responsive-img">
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-4 product">
+            <div class="dropdown">
+                <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown">Kesar<span class="caret"></span></button>
+                <p class="dropdown-menu">
+                    Kesar mango also know as "Gir Kesar mango". Famous in Gujrat side.
+                    Sweet and little tangy in taste. Red/ Orange on top and green/yellow at the bottom.
+                    Kesar variety is among the most expensive varieties of the fruit. Creamy, low in fiber and less in fat. These mangoes are little samll in sized, approx 250 - 300 gm
+                    <img src="images/kesar_mango.jpg" class="responsive-img">
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-4 product">
+            <div class="dropdown">
+                <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown">Bengenpalli<span class="caret"></span></button>
+                <p class="dropdown-menu">
+                    Banganapalle is a mango variety generally known as The King of Mangoes, cultivar named after Banganapalle. An unspoilt obliquely oval specimen presents an
+                    unblemished golden yellow thin edible skin. These mangoes are large sized, weighing on an average 350-400 grams. The pulp is fibreless, firm and yellow with
+                    sweet taste.
+                    <img src="images/benganpalli.jpg" class="responsive-img">
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="Order">
+    <h3>Order</h3>
+    <form class="form-inline" action="/action_page.php" method="get">
+        <div class="form-group">
+            <fieldset>
+                <legend>Personal information:</legend>
+                <label>First Name</label>
+                <input type="text">
+                <label>Last Name</label>
+                <input type="text">
+                <label>Phone Number</label>
+                <input type="number" placeholder="123 456 7890">
+                <label>Email</label>
+                <input type="text" placeholder="abc@xyz.com">
+            </fieldset>
+        </div>
+        <div class="order-detail">
+            <form action="/action_page.php" method="post">
+                <fieldset>
+                    <legend>Order detail:</legend>
+                </fieldset>
+                <input type="checkbox" name="mango1" value="alphanso">Alphanso
+                <label>$30</label>
+                <input type="number" name="quantity" min="0" max="10" step="1" value="1">
+                <br>
+                <input type="checkbox" name="mango2" value="kesar">Kesar
+                <label>$28</label>
+                <input type="number" name="quantity" min="0" max="10" step="1" value="1">
+                <br>
+                <input type="checkbox" name="mango3" value="benganpalli">Benganpalli
+                <label>$30</label>
+                <input type="number" name="quantity" min="0" max="10" step="1" value="1"><br><br>
+
+
+                <button class="btn btn-default">Send</button>
+
+            </form>
+        </div>
+
+
+    </form>
+</div>
+<br>
+<footer id="contact" class="container-fluid text-center">
+    <h3>Contact us!</h3>
+    <div class="contact-div col-xs-6 col-sm-3">
+        <p>Yogesh Kasat</p>
+        <p>Irvine, CA</p>
+        <p>949 861 1081</p>
+    </div>
+    <div class="contact-div col-xs-6 col-sm-3">
+        <p>Saket Shah</p>
+        <p>Eastwell, CA</p>
+        <p>636 288 8162</p>
+    </div>
+    <div class="contact-div col-xs-6 col-sm-3">
+        <p>Vijay Patil</p>
+        <p>Cerritos, CA</p>
+        <p>012 345 6789</p>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+        <p>Tushar Karwa</p>
+        <p>Culver city, CA</p>
+        <p>310 343 5941</p>
+
+    </div>
+
+
+</footer>
+
+</body>
+</html>
